@@ -1,9 +1,10 @@
 ![Logo de la Guía](https://raw.githubusercontent.com/fmendezy/Guia-de-Markdown/main/img/TituloGuia_FMY.png "Logo de la Guía de Markdown")
+
 Este documento esta destinado como un lugar de apuntes para dejar registro de lo aprendido en Markdown para mi carrera como Ingeniero de Informático.
 
 Es importante recordar que **Markdown admite HTML** en su contenido, permitiéndonos tener más *flexibilidad* en formato.
 
-#### Índice
+## Índice
 1. [Inicio](#Índice)
 2. [Títulos](#mi-titulo-h1)
 3. [Formatos de Textos](#formatos-de-textos)
@@ -13,7 +14,7 @@ Es importante recordar que **Markdown admite HTML** en su contenido, permitiénd
 7. [Líneas Separatorias](#lineas-separatorias)
 8. [Insertar Código](#código)
 9. [Tablas](#tablas)
-10. [Imágenes y Videos](#imágenes)
+10. [Imágenes](#imágenes)
 11. [Notas al Pie de Página](#notas-al-pie-de-página)
 12. [Tareas](#tareas)
 13. [Emojis](#emojis)
@@ -29,7 +30,7 @@ ___
 ***Nota:** Sólo llega hasta h6*
 
 ---
-#### Formatos de textos
+## Formatos de textos
 <!-- Italic (Cursiva) -->
 Este es un texto en *cursiva*.
 
@@ -55,7 +56,7 @@ Es posible <span style="color:blue">colorear</span> el texto usando HTML.
 <!-- Subrayado -->
 
 <!-- UL (Lista desordenada) -->
-### Listas
+## Listas
 #### Listas Desordenadas
 * Manzana
   * Roja
@@ -66,7 +67,7 @@ Es posible <span style="color:blue">colorear</span> el texto usando HTML.
 
 
 <!-- OL (Lista ordenada) -->
-#### Listas Ordenadas
+## Listas Ordenadas
 1. Aprender github.
 2. Aprender Markdown.
 3. Documentar la materia de la carrera.
@@ -80,31 +81,31 @@ Es posible <span style="color:blue">colorear</span> el texto usando HTML.
 4. Repetir.
 
 <!-- Links (Enlaces) -->
-#### Enlaces
+## Enlaces
 [google.cl](https://www.google.cl)
 [Posa el mouse encima](https://www.google.cl "Genial, sigues las instrucciones, esto se puede leer al posar el mouse en este enlace.")
 
 <!-- Anclas -->
-#### Anclas
+## Anclas
 Las anclas son enlaces internos dentro del mismo contenido.
 
 El siguiente enlace te lleva te permite [volver al Índice](#índice).
 
 <!-- Quotes (Citas) -->
-#### Citas
+## Citas
 > Esta es una cita.
 >>Esta es una cita de nivel 2
 >>>Y esta de nivel 3
 >>>>Obviamente esta de nivel 4
 
 <!-- Lineas -->
-#### Lineas separatorias
+## Lineas separatorias
 ---
 ***
 ___
 
 <!-- Insertar Código -->
-#### Código
+## Código
 `console.log('Hola mundo en una linea!)`
 
 También puede tener formato por lenguaje de programación especifico, si no queda sin
@@ -124,7 +125,7 @@ echo suma([1,2,3,4,5,6,7,8,9,10]);
 <h1>Aquí otro ejemplo, con código en HTML</h1>
 ```
 <!-- Tablas -->
-#### Tablas
+## Tablas
 Las tablas tienen algo en particular, uno debe darle los "espaciados" para que se vea visualmente agradable en el código Markdown., sin embargo aunque en el código no se vea "bonito" se podrá apreciar en el resultado cómo este toma la forma esperada.
 
 Deben haber al menos tres guiones medios para separar el encabezado.
@@ -141,7 +142,7 @@ Para tener los elementos **centrados** en la dirección que queramos, agregamos 
 | Alineado a la izquierda | Centrado | Alineado a la derecha |
 
 <!-- Imagenes -->
-#### Imágenes
+## Imágenes
 
 <!-- Version con link externo -->
 ![VS Code Logo](https://code.visualstudio.com/assets/images/code-stable.png "Logo de Visual Studio")
@@ -151,17 +152,19 @@ Para tener los elementos **centrados** en la dirección que queramos, agregamos 
 
 <!-- Versión HTML Ajustando tamaños -->
 Versión **HTML** con ajustes de *alto* y *ancho*:
+
 <img src="./img/Kotlin_Icon.png" alt="Logo de Kotlin" title="Logo de Kotlin en HTML" width="200" height="200">
 
-<!-- Videos -->
+<!-- Videos 
 #### Videos
 <video width="320" height="240" controls>
   <source src="./video/video.mp4" type="video/mp4">
   Tu navegador no soporta el video tag.
 </video>
+-->
 
 <!-- Notas -->
-#### Notas al pie de página
+## Notas al pie de página
 Oficialmente no forman parte principal de Markdown pero se pueden utilizar.
 
 Este es un nota simple referenciada[^1].
@@ -173,19 +176,19 @@ Esta es una segunda nota referenciada. [^2].
 
 
 <!-- GITHUB MARKDOWN (REGLAS PROPIAS DE GITHUB) -->
-#### Tareas
+## Tareas
 * [x] Tarea 1
 * [x] Tarea 2
 * [ ] Tarea 3
 * [ ] Tarea 4
 
 <!-- Emojis -->
-#### Emojis
+## Emojis
 Se pueden obtener desde [aquí](https://gist.github.com/rxaviers/7360908 "Enlace a un articulo completo.")
 :heart_eyes: :blush: :sunglasses: :heart: :star2: :fire: :muscle:
 
 <!-- Mencionar a otros usuarios -->
-#### Menciones
+## Menciones
 Es posible hacer menciones a usuarios de Github.
 @fmendezy :muscle: +1
 
